@@ -8,11 +8,14 @@ async function getData() {
     document.getElementById("blogTitleData").innerText = title.toUpperCase()
 
     const response = await fetch(`blogMdFiles/${title.replace(" ", "_").toLowerCase()}.md`);
+    const imageSrc = `blogBanners/${title.replace(" ", "")}Banner.png`;
 
     if (!response.ok) {
       document.getElementById("blogDescpData").innerHTML = "Blog post Does not Exists";
       return;
     }
+
+    document.getElementById("blog-banner").src = imageSrc
 
     const markdown = await response.text();
 

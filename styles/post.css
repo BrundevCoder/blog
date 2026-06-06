@@ -6,6 +6,9 @@
 }
 
 .img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 
@@ -26,10 +29,12 @@
 }
 
 .post-title {
+  text-align: center;
   font-family: "Syne", sans-serif;
   font-weight: 800;
   font-size: 2.25rem;
   margin-bottom: 2rem;
+  width: 100%;
 }
 
 .post-descp {
@@ -44,4 +49,37 @@ code {
   padding: .2rem .45rem;
   color: #0ae20a;
   font-style: italic;
+}
+
+.actions-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: .35rem;
+  padding-right: .55rem;
+  background: #ffffffd8;
+  border-end-end-radius: 12px;
+}
+
+.back-link {
+  font-size: 1.22rem;
+  text-decoration: none;
+  font-family: "Outfit", sans-serif;
+  color: #ff2121;
+}
+
+.actions-container:hover .back-link {
+  text-decoration: underline;
+}
+
+@media (max-width: 250px) {
+  .post-title {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 175px) {
+  .post-title {
+    font-size: 1.05rem;
+  }
 }

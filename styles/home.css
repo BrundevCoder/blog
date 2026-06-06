@@ -75,3 +75,44 @@ main {
 .blog-link:active {
   background: #88a8ee;
 }
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.header-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  filter: grayscale(.55);
+}
+
+.header-content {
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  width: max-content;
+  background: #ffffff4f;
+  backdrop-filter: blur(20px);
+  padding: 1.25rem;
+  position: absolute;
+  border-radius: 12px;
+}
+
+@media (max-width: 750px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 481px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
