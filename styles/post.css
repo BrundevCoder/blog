@@ -43,6 +43,13 @@
   font-family: "Outfit", sans-serif;
 }
 
+.post-descp img {
+  margin: 1rem 0;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 code {
   font-family: "Outfit", sans-serif;
   background: #434958;
@@ -72,14 +79,51 @@ code {
   text-decoration: underline;
 }
 
+@media (max-width: 350px) {
+  .post-title {
+    font-size: 1.75rem;
+  }
+  .actions-container {
+    position: fixed;
+  }
+}
+
+@media (max-width: 288px) {
+  .post-title {
+    font-size: 1.5rem;
+  }
+}
+
 @media (max-width: 250px) {
   .post-title {
     font-size: 1.25rem;
   }
+  .actions-container {
+    padding: .15rem;
+    padding-right: .35rem;
+  }
+  .back-link {
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 222px) {
+  .post-title {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 190px) {
+  .post-content {
+    padding: .35rem;
+  }
+  .post-title {
+    font-size: .65rem;
+  }
 }
 
 @media (max-width: 175px) {
-  .post-title {
-    font-size: 1.05rem;
+  .post-content {
+    padding: .18rem;
   }
 }
