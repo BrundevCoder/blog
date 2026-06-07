@@ -34,11 +34,11 @@ Another very important thing I worked on was creating animations/actions that de
 
 Another important thing I did was to display this message on the page when the files for a post are not found or do not exist:
 
-![Not Found Blog Page](readmeFiles/blogNotFound.mp4)
+![Not Found Blog](readmeFiles/notfoundGif.gif)
 
 Last but not least, responsiveness, something that is very essentioal on the web! You can see this videos of it:
 
-![Responsiveness](readmeFiles/responsiveness1.mp4)
-![Responsiveness](readmeFiles/responsiveness2.mp4)
+![Responsiveness](readmeFiles/res1.gif)
+![Responsiveness](readmeFiles/res2.gif)
 
 Hope you liked!
