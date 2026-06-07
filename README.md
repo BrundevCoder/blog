@@ -28,12 +28,17 @@ Another very important thing I worked on was creating animations/actions that de
 
 ![Hovering Read More Button](readmeFiles/buttonHover.gif)
 
-### Go Back button Hover Animatio:
+### Go Back button Hover Animation:
 
 ![Hovering Go Back Button](readmeFiles/goBackHover.gif)
 
 Another important thing I did was to display this message on the page when the files for a post are not found or do not exist:
 
-<video controls src="readmeFiles/blogNotFound.mp4" title="Title"></video>
+<video controls src="readmeFiles/blogNotFound.mp4" title="Not Found Blog Page"></video>
+
+Last but not least, responsiveness, something that is very essentioal on the web! You can see this videos of it:
+
+<video controls src="readmeFiles/responsiveness1.mp4" title="Responsiveness"></video>
+<video controls src="readmeFiles/responsiveness2.mp4" title="Responsiveness"></video>
 
 Hope you liked!
